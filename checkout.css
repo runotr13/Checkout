@@ -1,0 +1,191 @@
+*{  margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 20px;
+    /* color: rgb(87, 87, 87); */
+}
+#h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.inputs{
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 30px;
+    padding-left: 40px;
+    color: rgb(87, 87, 87);
+}
+label{
+    font-size: 12px;
+    opacity: 0.7;
+}
+#emaildiv,#phonediv,#fullname,#adres,#city{
+    position: relative;
+    color: rgb(87, 87, 87);
+}
+#emaildiv i,#phonediv i,#fullname i,#adres i,#city i{
+    position: absolute;
+    top: 37px;
+    left: 5px;
+    color: rgb(87, 87, 87);
+}
+#form-element{
+    /* background-color: aqua; */
+    margin: 0;
+    display: flex;
+    position: relative;
+    color: rgb(87, 87, 87);
+}
+#form-country select{
+    width: 8rem;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding-left: 40px;
+
+}
+#form-country i{
+    position: absolute;
+    top: 38px;
+    left: 25px;
+}
+#form-post{
+    margin: 0;
+    position: relative;
+    color: rgb(87, 87, 87);
+}
+#form-post input{
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 30px;
+    padding-left: 40px;
+}
+#form-post i{
+    position: absolute;
+    top: 37px;
+    left: 5px;
+}
+#shipping{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 65, 65);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(45, 45, 45);
+}
+#nexttime{
+    margin-top: 10px;
+}
+#nexttime input{
+    margin-right: -10px;
+}
+#buton{
+    margin-left: 320px;
+    position: relative;
+    line-height: 1.5rem;
+}
+#buton button{
+    padding: 5px 10px ;
+    color: white;
+    background-color: coral;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+main{
+    width: 60%;
+    position: relative;
+}
+#ürünler{
+    position: absolute;
+    width: 30%;
+    height: 30rem;
+    top: 5rem;
+    left: 35rem;
+    background-color: #e4e4e4;
+    border-radius: 10px;
+}
+#onaimage{
+    position: relative;
+}
+#oneimage img{
+    margin-top: 30px;
+    width: 30%;
+    height: 130px;
+    border-radius: 10px;
+}
+#vintage{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+#span{
+    font-size: 1.3rem;
+    color: coral;
+}
+#buttonlar{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 43px;
+}
+#buttonlar button{
+    width: 20px;
+    height: 30px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+#twoimage img{
+    margin-top: 30px;
+    width: 30%;
+    height: 130px;
+    border-radius: 10px;
+}
+#Shoes{
+    position: absolute;
+    top: 190px;
+    left: 150px;
+}
+#span1{
+    font-size: 1.3rem;
+    color: coral;
+}
+del{
+    color: rgb(87, 87, 87);
+}
+#buttonlar1{
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 43px;
+}
+#buttonlar1 button{
+    width: 20px;
+    height: 30px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+#sondiv{
+    margin-top: 50px;
+    color: rgb(87, 87, 87);
+}
+
+#span2,#span3{
+    margin-left: 200px;
+}
+
+

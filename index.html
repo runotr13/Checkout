@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<!--Get your own code at fontawesome.com-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <header id="h1">
+        <h1>Checkout</h1>
+    </header>
+    <main>
+    <div class="contact">
+        <h3>Contact information</h3>
+    </div>
+    <div id="emaildiv"> 
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your email..." class="inputs"><br>
+        <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+    </div>
+    <div id="phonediv">
+        <label for="phone">Phone</label><br>
+        <input type="text" name="phone" id="phone" placeholder="Enter your phone..." class="inputs"><br>
+        <i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+    </div>
+    <div id="shipping">
+        <h3>Shipping address</h3>
+    </div>
+    <div id="fullname">
+    <label for="name">Full name</label><br>
+    <input type="text" name="name" id="name" placeholder="Enter your Full name..." class="inputs"><br>
+    <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+    </div>
+    <div id="adres">
+        <label for="address">Address</label><br>
+        <input type="text" name="address" id="address" placeholder="Enter your address..." class="inputs"><br>
+        <i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>
+    </div>
+    <div id="city">
+        <label for="sehir">City</label><br>
+        <input type="text" name="sehir" id="sehir" placeholder="Enter your city..." class="inputs"><br>
+        <i class="fas fa-city fa-lg fa-fw" aria-hidden="true"></i>
+    </div>
+    <div id="form-element">
+    <div id="form-country">
+        <label for="country">Country</label><br>
+        <select name="country" id="country" class="inputs">
+            <option value="Turkey">Turkey</option>
+            <option value="Russia">Russia</option>
+            <option value="Bulgaria">Bulgaria</option>
+        </select><br>
+        <i class="fa fa-globe" aria-hidden="true"></i>
+    </div>
+    <div id="form-post">
+        <label for="post">Post Code</label><br>
+        <input type="text" name="post" id="post" placeholder="Enter your postal code..."><br>
+        <i class='fas fa-mail-bulk'></i>
+    </div>
+</div>
+<div id="nexttime">
+    <input type="checkbox" name="nexttime" id="nexttime">
+    <label for="">See this information next time</label>
+</div>
+<div id="buton">
+    <button type="submit">Continue</button>
+</div>
+</main>
+<div id="ürünler">
+    <div id="oneimage">
+        <img src="./image/photo1.png" alt="Vintage Backbag">
+    <div id="vintage">
+        <h3>Vintage Backbag</h3>
+        <span id="span">$54.99</span><del>$94.99</del>
+        <div id="buttonlar">
+            <button <i class="fas fa-minus" aria-hidden="true"></i></button>
+            <span id="bir">1</span>
+        <button <i class="fas fa-plus" aria-hidden="true"></i></button>
+</div>
+</div>
+</div>
+<div id="twoimage">
+    <img src="./image/photo2.png" alt="Levi Shoes">
+    <div id="Shoes">
+        <h3>Levi Shoes</h3>
+        <span id="span1">$74.99</span><del>$124.99</del>
+        <div id="buttonlar1">
+            <button <i class="fas fa-minus" aria-hidden="true"></i></button>
+    <span id="bir">1</span>
+    <button <i class="fas fa-plus" aria-hidden="true"></i></button>
+    </div>
+    </div>
+</div>
+<div id="sondiv">
+    <hr>
+    <p>Shipping <span id="span2">$19</span></p><hr>
+    <p>Total<span id="span3">$148.98</span></p>
+</div>
+</div>
+</body>
+</html>
